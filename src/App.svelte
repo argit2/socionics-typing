@@ -96,14 +96,14 @@
 			<h3>Explanation</h3>
 	
 			This is a simple tool to help assessing someone's socionics type.
-			When assessing someone's type, it's common to first start by identifying which information elements you perceive in that person the most.
+			When doing this kind of assessment, it's common to first start by identifying which information elements you perceive in that person the most.
 			However, from personal experience, this process is very error prone.
 			A major reason is that, for example, someone who appears Fe might not be Fe base or Fe creative, but also Fe demonstrative, Fe role, Fe activating, and even Fe suggestive.
 			Meanwhile, someone who appears Fe is very unlikely to be Fe polr or Fe ignoring. This means that if someone appears Fe, you can likely exclude the types ILI, SLI, ESI and EII out of the list.
 	
 			<h4>Instructions</h4>
 	
-			Select information elements there's no way the person doesn't have. When doing so, types with this element as polr or ignoring will be removed.
+			Select information elements there's no way the person lacks. When doing so, types with this element as polr or ignoring will be removed.
 		</div>
 		<div class="test">
 			<div class="sociotypes">
@@ -118,6 +118,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="githubLink"><a href="https://github.com/argit2/socionics-typing/">Github</a></div>
 </main>
 
 <style>
@@ -190,6 +191,12 @@
 
 	.toggledOn {
 		background-color: var(--toggledOnBackground);	
+	}
+
+	.githubLink {
+		position: absolute;
+		right: 1em;
+		bottom: 1em;
 	}
 
 </style>
